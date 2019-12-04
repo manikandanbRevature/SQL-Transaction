@@ -1,4 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `getorder`(
+CREATE PROCEDURE `getorder`(
 IN USER_ID INT,
  IN PRODUCT_ID INT,
  IN QUANTITY INT,
